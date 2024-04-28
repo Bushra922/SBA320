@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e2644;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  color: #e3ecff;
+}
+
+.weather-search form {
+  margin-bottom: 20px;
+}
+
+.weather-search input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.weather-search button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-info {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgb(218, 230, 247);
+}
+
+.weather-info h2 {
+  margin-top: 0;
+}
+
+.weather-info p {
+  margin: 10px 0;
+}
+
+.weather-info p:first-child {
+  margin-top: 0;
+}
